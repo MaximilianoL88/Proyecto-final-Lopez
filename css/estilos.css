@@ -170,6 +170,9 @@ a.link {
 }
 
 /*propiedades para los elementos debajo de las fotos de la tienda*/
+.imgT:hover { scale: 1.1; transition: 0.3s;
+
+}
 .precio{
     text-align: center; background-color: rgb(153, 243, 183);
 }
