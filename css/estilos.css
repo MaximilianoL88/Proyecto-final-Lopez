@@ -9,17 +9,19 @@ header div div {
 header div div div p{
     display: flex; justify-content: flex-start;
 }
-header div div nav {display: flex;
-    justify-content: flex-end;
+header div div nav {display: flex; 
+   
+}
+header nav ul {
+    display: flex; justify-content: end;
 }
 header div a img{
     width: 100px; height: 100px;
 }
-header nav ul{
-    display: flex;
+
+header div div nav ul li{ padding: 20px; background-color: white;
 }
-header nav ul li{ padding: 20px; background-color: white;
-}
+
 /* propiedades seccion principal */
 
 main section div{display: flex;
@@ -163,8 +165,8 @@ div.redes{
     width: 50px; padding: 10px;
 }
 /* propiedades formulario de contacto */
-div h1.formu{display: flex;
-    justify-content: center; margin-bottom: 60px;
+div h2.formu{display: flex;
+    justify-content: center; margin-bottom: 100px; margin-top: 100px;
 }
 
 .formulario{
@@ -176,8 +178,66 @@ button{
 
 /*posicionamiento mapa contacto*/
 iframe.mapa{
-    margin-top: 150px;
+    margin-top: 150px; margin-bottom: 150px;
 }
 p.direccion{display: flex; justify-content: center;
     font-size: 30px; color: rgb(40, 126, 40); text-decoration: underline;
 }
+@media (max-width: 480px){
+    li {
+        display: flex; flex-direction: column;
+    }
+}
+@media (max-width: 480px) { header div div nav ul {
+    display: flex; flex-direction: column; padding-left: 0px; 
+} 
+
+}
+    
+
+
+@media (max-width: 480px) {header div div nav ul li a { font-size: 13px; line-height: 0%; text-align: center; padding: 1px;
+     }
+} 
+@media (min-width: 481px) { header div div nav {
+    display: flex; justify-content: flex-end;
+}
+    
+}
+@media (max-width: 480px) {
+   div p.nombre{
+       text-align: center; padding-left: 0px;
+    }
+}
+@media (max-width: 480px) {
+     .papas11{
+         text-align: center;
+     }  .imgT {
+        text-align: center;
+     }
+     .precio {
+        margin-top: 15px;
+     }
+     div.redes10 {
+        text-align: center; margin-top: 100px; margin-bottom: 100px;
+     }
+ }
+ @media (max-width: 480px) {footer div div b.referencia { line-height: normal;
+    
+     }
+ }
+ p.direccion {
+    margin-top: 100px; 
+ }
+ @media (max-width: 480px){  h2.historia {
+    margin-top: 100px; 
+ } 
+ }
+ @media (max-width: 480px){  p.historia  {
+    margin-top: 0px; 
+ } 
+ }
+ @media (max-width: 480px){  p.cosecha {
+    margin-top: 40px; 
+ } 
+ }
