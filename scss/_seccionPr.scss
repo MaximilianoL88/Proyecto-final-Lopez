@@ -1,0 +1,73 @@
+/* propiedades seccion principal */
+
+main section div {
+    display: flex;
+    justify-content: center;
+    article{
+        display: flex;
+         justify-content: center;
+    }
+}
+/*propiedades para el parrafo debajo de nuestro h1*/
+
+
+.parrafo {color: white; 
+    font-family: 'Roboto', sans-serif;
+    width: 800px; background-color: rgb(32, 105, 32);
+    padding: 30px 15px ; 
+     font-size: 18px; 
+     font-weight:lighter;
+      border-radius: 7px; 
+      margin-bottom: 40px;
+    }
+
+
+
+/*tamaño fotos del index*/
+body section img{
+    width: 275px;
+     height: 275px;
+     padding: 15px;
+}
+
+/*estilos para los textos de las fotos del index*/
+
+.precio{
+    margin-top: 15px;
+}
+.nombre{
+    padding-left: 100px;
+     font-weight: bold;
+}
+.nombre:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.precio:hover{
+    color: rgb(11, 233, 59);
+    cursor: pointer; 
+    text-decoration: underline;
+}
+p.irAseccion{ 
+    font-size: 24px; 
+    text-decoration: underline; 
+    padding-top: 30px;
+}
+.papas11:hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.imgProducto:hover{
+    scale: 1.2; 
+    cursor: pointer; 
+    transition: 0.5s;
+    
+}
+/*ubicacion boton subir*/
+
+a.subir{ 
+    display: inline; 
+    padding-left: 25px;
+}

@@ -1,0 +1,59 @@
+/*propiedades iconos redes*/
+
+div.redes{
+    display: flex; 
+    justify-content: start; 
+    flex-direction: column;
+}
+.redes{
+    width: 60px; 
+    padding: 10px;
+}
+.redes:hover{
+    scale: 1.6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+a.redesN {
+    text-align: center;
+}
+
+/* propiedades formulario de contacto */
+
+div h2.formu{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 100px; 
+    margin-top: 100px;
+}
+
+.formulario{
+    width: 1000px;
+}
+button{
+    background-color: rgb(46, 192, 46);
+}
+/*ubicacion mapa*/
+
+div iframe{
+    padding-bottom: 30px;
+}
+
+
+/*posicionamiento mapa contacto*/
+
+iframe.mapa{
+    margin-top: 150px; 
+    margin-bottom: 150px;
+}
+p.direccion{
+    display: flex; 
+    justify-content: center;
+    font-size: 30px; 
+    color: rgb(40, 126, 40); 
+    text-decoration: underline;
+    margin-top: 40px;
+}
+.redes3:hover{
+    color: green; cursor: pointer;
+}

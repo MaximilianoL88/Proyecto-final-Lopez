@@ -1,0 +1,42 @@
+/*disposicion de las fotos de la tienda*/
+
+div.online{
+    margin-top: 40px;
+ }
+
+div.tienda10{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}  
+a.link {
+    padding-left: 15px;
+}
+
+/*propiedades para los elementos debajo de las fotos de la tienda*/
+
+.imgT:hover { 
+    scale: 1.1;
+    transition: 0.3s;
+
+}
+.precio{
+    text-align: center; 
+    background-color: rgb(153, 243, 183);
+}
+div div#precio2{
+    width: 100px; 
+    margin: auto;
+}
+#carrito {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 30px; 
+    margin-bottom: 15px; 
+    border: 1px solid black;
+}
+#carrito:hover{ 
+    cursor: pointer; 
+    scale: 1.2; 
+    border: 2px solid rgb(2, 75, 35) ;
+}

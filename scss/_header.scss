@@ -1,0 +1,44 @@
+/* propiedades encabezado y navegacion */
+
+header div div {
+    display: flex;
+     align-items: center;
+     div a img{
+        width: 100px; 
+        height: 100px;
+    }
+     div p{
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav {
+        display: flex; 
+        ul {
+            display: flex; 
+            justify-content: end;
+            li{
+                padding: 20px;
+                background-color: white;
+           }
+        }
+       
+    }
+}
+
+    /* estilo nav*/
+
+    .paginas {
+        list-style-type: none;
+    }    
+    
+    /*medidas para el logo*/
+    
+    body header div a img.logo {
+        width: 150px;
+         height: 150px;
+    }
+    
+    /*color nombre logo*/
+    
+    #logo{ color: rgb(7, 107, 7);
+    }

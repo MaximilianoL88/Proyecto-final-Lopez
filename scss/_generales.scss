@@ -1,0 +1,28 @@
+ /*ESTILOS GENERALES*/
+
+/*fuente importada*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*fuente para todos los elementos*/
+*{
+    font-family: 'Roboto', sans-serif ;
+}
+/*propiedades h1*/
+h1 {
+    color: rgb(40, 126, 40) ; 
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    }
+
+    /*propiedades h2*/
+
+h2{
+    font-size: 30px;
+     display: flex; 
+     justify-content: center; 
+     margin-bottom: 60px; 
+     margin-top: 30px;
+    color:rgb(40, 126, 40) ; 
+    font-size: 36px;
+}
