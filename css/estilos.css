@@ -49,19 +49,19 @@ body {background-color: rgb(241, 234, 234) ;
 
 /*propiedades h1*/
 h1 {
-    color: rgb(8, 8, 8); 
-    font-size: 36px;
+    color: rgb(40, 126, 40) ; 
+    font-size: 50px;
     font-family: 'Roboto', sans-serif;
     padding: 20px;
     }
     /*fuente h2*/
 h2{
-    font-size: 30px; display: flex; justify-content: center; margin-bottom: 60px;
+    font-size: 30px; display: flex; justify-content: center; margin-bottom: 60px; margin-top: 30px;
 }
 
 /*propiedades para el parrafo debajo de nuestro h1*/
 .parrafo {color: white; font-family: 'Roboto', sans-serif;width: 800px; background-color: rgb(32, 105, 32);
-    padding: 30px 15px ;  font-size: 18px; font-weight:lighter; border-radius: 7px;
+    padding: 30px 15px ;  font-size: 18px; font-weight:lighter; border-radius: 7px; margin-bottom: 40px;
     }
     /*menu*/
 .paginas {
@@ -92,18 +92,21 @@ a.subir{
 
 /*propiedades pie de pagina*/
 footer{
-     background-color: rgb(61, 241, 115);margin-top: 40px;
+     background-color: rgb(32, 105, 32);;margin-top: 40px;
 }
 footer b.referencia{
-     padding-right: 10px; font-size: 14px; padding-top: 10px; padding-bottom: 10px;
+     padding-right: 10px; font-size: 14px; padding-top: 10px; padding-bottom: 10px; color: white;
     
 }
 footer b{
    
 }
-footer div div b.copy{
-    padding-top: 10px; color:rgb(8, 102, 8);
+
+
+h2 {
+    color:rgb(40, 126, 40) ; font-size: 36px;
 }
+
  /* propiedaes contenido principal nosotros */
 
 .historia{
@@ -115,12 +118,15 @@ footer div div b.copy{
 
 /*estilo titulo video*/
 .cosecha{
-    font-size: 22px; color: rgb(12, 214, 80); text-decoration: underline; margin-bottom: 50px;
+    font-size: 22px; color:rgb(40, 126, 40); text-decoration: underline; margin-bottom: 50px;
 }
 
 /*ubicacion foto seccion nosotros*/
 .papaAcampo{
     width: 320px; height: 320px; display: block;
+}
+p.cosecha{
+    margin-top: 100px;
 }
 
 /*ubicacion mapa*/
@@ -227,7 +233,7 @@ p.direccion{display: flex; justify-content: center;
      }
  }
  p.direccion {
-    margin-top: 100px; 
+    margin-top: 40px; 
  }
  @media (max-width: 480px){  h2.historia {
     margin-top: 100px; 
@@ -240,4 +246,7 @@ p.direccion{display: flex; justify-content: center;
  @media (max-width: 480px){  p.cosecha {
     margin-top: 40px; 
  } 
+ }
+ .online{
+    margin-top: 40px;
  }
