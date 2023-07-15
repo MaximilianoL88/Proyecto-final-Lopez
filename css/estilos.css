@@ -1,3 +1,4 @@
+
 /*fuente importada*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -78,11 +79,26 @@ body section img{width: 275px; height: 275px; padding: 15px;
 
 
 /*estilos para los textos de las fotos del index*/
+.precio{
+    margin-top: 15px;
+}
 .nombre{
     padding-left: 100px; font-weight: bold;
 }
+.nombre:hover{
+    color: green; cursor: pointer; text-decoration: underline;
+}
+.precio:hover{
+    color: rgb(11, 233, 59); cursor: pointer; text-decoration: underline;
+}
 p.irAseccion{ 
     font-size: 24px; text-decoration: underline; padding-top: ;
+}
+.papas11:hover{
+    scale: 1.1; cursor: pointer; transition: 0.5s;
+}
+.imgProducto:hover{scale: 1.2; cursor: pointer; transition: 0.5s;
+    
 }
 
 /*ubicacion boton subir*/
@@ -162,6 +178,9 @@ div div#precio2{
 }
 #carrito {
     width: 30px; height: 30px; margin-left: 30px; margin-bottom: 15px; border: 1px solid black;
+}
+#carrito:hover{ cursor: pointer; scale: 1.2; border: 2px solid rgb(2, 75, 35) ;
+
 }
 /*propiedades iconos redes*/
 div.redes{
