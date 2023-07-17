@@ -26,6 +26,13 @@ h2 {
   font-size: 36px;
 }
 
+h1.col12 {
+  color: rgb(40, 126, 40);
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+
 /* propiedades encabezado y navegacion */
 header div div {
   display: flex;
@@ -130,7 +137,7 @@ body section img {
 }
 
 .precio:hover {
-  color: rgb(11, 233, 59);
+  color: rgb(45, 10, 110);
   cursor: pointer;
   text-decoration: underline;
 }
