@@ -63,8 +63,16 @@ body header div a img.logo {
 }
 
 /*color nombre logo*/
-#logo {
+.tituloLogo {
   color: rgb(7, 107, 7);
+}
+
+.nav-link {
+  color: green;
+}
+
+li.nav-item {
+  padding: 8px;
 }
 
 /*propiedades body*/
@@ -176,7 +184,7 @@ footer b.referencia {
   font-size: 22px;
 }
 
-h3 {
+h2.comprar {
   text-decoration: underline;
   display: flex;
   justify-content: center;
@@ -354,6 +362,46 @@ p.direccion {
 @media (max-width: 480px) {
   p.cosecha {
     margin-top: 40px;
+  }
+}
+ul.responsive {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  ul.desktop {
+    display: none;
+  }
+}
+.respon {
+  position: fixed;
+  display: flex;
+  justify-content: end;
+  margin-top: 130px;
+  height: 20px;
+}
+
+.respon2 {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  margin-top: 90px;
+  height: 20px;
+}
+
+@media (min-width: 480px) {
+  .respon {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    margin-top: 105px;
+  }
+}
+@media (max-width: 480px) {
+  h1.formu {
+    margin-top: 75px;
   }
 }
 
