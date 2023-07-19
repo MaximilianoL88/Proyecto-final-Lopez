@@ -74,6 +74,10 @@ body header div a img.logo {
   color: rgb(7, 107, 7);
 }
 
+.titulo22 {
+  color: rgb(7, 107, 7);
+}
+
 .nav-link {
   color: green;
 }
@@ -106,6 +110,7 @@ main section div article {
   font-family: "Roboto", sans-serif;
   width: 800px;
   background-color: rgb(32, 105, 32);
+  background: linear-gradient(rgb(32, 105, 32), rgb(3, 141, 3));
   padding: 30px 15px;
   font-size: 18px;
   font-weight: lighter;
@@ -169,6 +174,7 @@ a.subir {
 /*propiedades pie de pagina*/
 footer {
   background-color: rgb(32, 105, 32);
+  background: linear-gradient(rgb(32, 105, 32), rgb(3, 167, 3));
   margin-top: 40px;
 }
 footer b.referencia {
@@ -381,11 +387,10 @@ ul.responsive {
   }
 }
 .respon {
-  position: fixed;
+  position: absolute;
   display: flex;
   justify-content: end;
-  margin-top: 130px;
-  height: 20px;
+  margin-top: 75px;
 }
 
 .respon2 {
@@ -401,14 +406,29 @@ ul.responsive {
     display: none;
   }
 }
+@media (min-width: 480px) {
+  .respon2 {
+    display: none;
+  }
+}
 @media (max-width: 480px) {
   h1 {
-    margin-top: 105px;
+    margin-top: 100px;
   }
 }
 @media (max-width: 480px) {
   h1.formu {
     margin-top: 75px;
+  }
+}
+@media (max-width: 480px) {
+  #logo {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 480px) {
+  .tituloLogo {
+    display: none;
   }
 }
 

@@ -3,7 +3,7 @@
 main section div {
     display: flex;
     justify-content: center;
-    article{
+     article{
         display: flex;
          justify-content: center;
     }
@@ -11,14 +11,17 @@ main section div {
 /*propiedades para el parrafo debajo de nuestro h1*/
 
 
-.parrafo {color: white; 
+.parrafo {
+    color: white; 
     font-family: 'Roboto', sans-serif;
-    width: 800px; background-color: rgb(32, 105, 32);
+    width: 800px;
+    background-color: rgb(32, 105, 32);
+    background: linear-gradient( rgb(32, 105, 32), rgb(3, 141, 3));
     padding: 30px 15px ; 
-     font-size: 18px; 
-     font-weight:lighter;
-      border-radius: 7px; 
-      margin-bottom: 40px;
+    font-size: 18px; 
+    font-weight:lighter;
+    border-radius: 7px; 
+    margin-bottom: 40px;
     }
 
 
@@ -37,7 +40,7 @@ body section img{
 }
 .nombre{
     padding-left: 100px;
-     font-weight: bold;
+    font-weight: bold;
 }
 .nombre:hover{
     color: green;
