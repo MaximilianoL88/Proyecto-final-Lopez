@@ -46,7 +46,7 @@
      .precio {
         margin-top: 15px;
      }
-     div.redes10 {
+     div.redes10 { display: flex;
         text-align: center; 
         margin-top: 100px; 
         margin-bottom: 100px;
@@ -55,8 +55,7 @@
 
  @media (max-width: 480px) {
      footer div div b.referencia { 
-       line-height: normal;
-    
+       line-height: normal;   
      }
  }
 
@@ -83,21 +82,7 @@ ul.responsive{
       display: none;
     } 
   }
-  
-  
-  .respon{position: absolute;
-      display: flex; justify-content: end;
-      margin-top: 75px;
-
-  }
-  .respon2{ 
-      position: absolute;
-      display: flex; justify-content: end;
-      margin-top: 90px;
-      height: 20px;  
-  }
-
-  
+   
   @media (min-width: 480px) {
     .respon {
       display: none;
@@ -110,7 +95,7 @@ ul.responsive{
   }
   @media (max-width: 480px){
     h1 {
-      margin-top: 100px;
+      margin-top: 50px;
     } 
   }
   @media (max-width: 480px){

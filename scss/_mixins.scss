@@ -1,0 +1,38 @@
+/*MIXIN H1*/
+
+@mixin propiedades{
+    color:  rgb(40, 126, 40) ; 
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin-top: 50px;
+}
+h1 {
+    @include propiedades;
+}
+/*MIXIN FOTOS DE PRODUCTOS*/
+
+@mixin size-fotos{
+        width: 300px; 
+        height: 300px; 
+        display: inline-block; 
+        padding: 50px; 
+}
+
+.imgProducto{
+    @include size-fotos;
+}
+
+/*MIXIN CARRITO TIENDA*/
+
+@mixin carrito{
+    width: 40px; 
+    height: 40px; 
+    margin-left: 30px; 
+    margin-bottom: 15px; 
+    border: 1px solid black;
+}
+
+#carrito {
+    @include carrito;
+}

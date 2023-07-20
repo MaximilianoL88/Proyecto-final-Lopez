@@ -43,9 +43,10 @@ header div div {
 .tituloLogo{ 
     color: rgb(7, 107, 7);
     }
-.titulo22{
-    color: rgb(7, 107, 7);
-}    
+    .titulo22{
+        color: rgb(7, 107, 7);
+        padding-right: 10px;
+    }   
 
 .nav-link {
         color: green;
@@ -53,4 +54,16 @@ header div div {
         
 li.nav-item {
     padding: 8px;
-}        
+}     
+
+.respon{position: absolute;
+    display: flex; justify-content: end;
+    margin-top: 75px;
+
+}
+.respon2{ 
+    position: absolute;
+    display: flex; justify-content: end;
+    margin-top: 90px;
+    height: 20px;  
+}

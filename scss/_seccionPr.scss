@@ -15,8 +15,7 @@ main section div {
     color: white; 
     font-family: 'Roboto', sans-serif;
     width: 800px;
-    background-color: rgb(32, 105, 32);
-    background: linear-gradient( rgb(32, 105, 32), rgb(3, 141, 3));
+    background-color: $color-principal;
     padding: 30px 15px ; 
     font-size: 18px; 
     font-weight:lighter;
@@ -28,46 +27,41 @@ main section div {
 
 /*tamaño fotos del index*/
 body section img{
-    width: 275px;
-     height: 275px;
+    width :$size-foto-destacados;
+    height: $size-foto-destacados;
      padding: 15px;
 }
 
 /*estilos para los textos de las fotos del index*/
 
-.precio{
-    margin-top: 15px;
-}
+
 .nombre{
     padding-left: 100px;
     font-weight: bold;
+}
+
+p.irAseccion{ 
+    font-size: 24px; 
+    text-decoration: underline; 
+    padding-top: 30px;
+}
+/*ANIMACIONES*/
+
+.papas11:hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .nombre:hover{
     color: green;
     cursor: pointer;
     text-decoration: underline;
 }
-.precio:hover{
-    color: rgb(45, 10, 110);
-    cursor: pointer; 
-    text-decoration: underline;
+
+.parrafo{
+    background: linear-gradient( rgb(32, 105, 32), rgb(3, 141, 3));
 }
-p.irAseccion{ 
-    font-size: 24px; 
-    text-decoration: underline; 
-    padding-top: 30px;
-}
-.papas11:hover{
-    scale: 1.1;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.imgProducto:hover{
-    scale: 1.2; 
-    cursor: pointer; 
-    transition: 0.5s;
-    
-}
+
 /*ubicacion boton subir*/
 
 a.subir{ 

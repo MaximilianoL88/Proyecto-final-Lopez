@@ -15,3 +15,11 @@ h2.comprar{
     justify-content: center; 
     margin-bottom: 60px;
 }
+
+/*ANIMACION FOTO PRODUCTOS*/
+.imgProducto:hover{
+    scale: 1.2; 
+    cursor: pointer; 
+    transition: 0.5s;
+    
+}

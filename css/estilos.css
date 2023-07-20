@@ -13,6 +13,7 @@ h1 {
   font-size: 50px;
   font-family: "Roboto", sans-serif;
   padding: 20px;
+  margin-top: 50px;
 }
 
 /*propiedades h2*/
@@ -76,6 +77,7 @@ body header div a img.logo {
 
 .titulo22 {
   color: rgb(7, 107, 7);
+  padding-right: 10px;
 }
 
 .nav-link {
@@ -86,12 +88,27 @@ li.nav-item {
   padding: 8px;
 }
 
+.respon {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  margin-top: 75px;
+}
+
+.respon2 {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  margin-top: 90px;
+  height: 20px;
+}
+
 /*propiedades body*/
 body {
-  background-color: rgb(241, 234, 234);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(241, 234, 234);
 }
 
 /* propiedades seccion principal */
@@ -110,7 +127,6 @@ main section div article {
   font-family: "Roboto", sans-serif;
   width: 800px;
   background-color: rgb(32, 105, 32);
-  background: linear-gradient(rgb(32, 105, 32), rgb(3, 141, 3));
   padding: 30px 15px;
   font-size: 18px;
   font-weight: lighter;
@@ -126,25 +142,9 @@ body section img {
 }
 
 /*estilos para los textos de las fotos del index*/
-.precio {
-  margin-top: 15px;
-}
-
 .nombre {
   padding-left: 100px;
   font-weight: bold;
-}
-
-.nombre:hover {
-  color: green;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.precio:hover {
-  color: rgb(45, 10, 110);
-  cursor: pointer;
-  text-decoration: underline;
 }
 
 p.irAseccion {
@@ -153,16 +153,21 @@ p.irAseccion {
   padding-top: 30px;
 }
 
+/*ANIMACIONES*/
 .papas11:hover {
   scale: 1.1;
   cursor: pointer;
   transition: 0.5s;
 }
 
-.imgProducto:hover {
-  scale: 1.2;
+.nombre:hover {
+  color: green;
   cursor: pointer;
-  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.parrafo {
+  background: linear-gradient(rgb(32, 105, 32), rgb(3, 141, 3));
 }
 
 /*ubicacion boton subir*/
@@ -172,17 +177,17 @@ a.subir {
 }
 
 /*propiedades pie de pagina*/
-footer {
-  background-color: rgb(32, 105, 32);
-  background: linear-gradient(rgb(32, 105, 32), rgb(3, 167, 3));
+footer.f {
   margin-top: 40px;
 }
-footer b.referencia {
+footer.f b.referencia {
   padding-right: 10px;
   font-size: 14px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
+  background-color: rgb(32, 105, 32);
+  background: linear-gradient(rgb(32, 105, 32), rgb(3, 167, 3));
 }
 
 /*estilos nuestros productos*/
@@ -204,11 +209,14 @@ h2.comprar {
   margin-bottom: 60px;
 }
 
-/*disposicion de las fotos de la tienda*/
-div.online {
-  margin-top: 40px;
+/*ANIMACION FOTO PRODUCTOS*/
+.imgProducto:hover {
+  scale: 1.2;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
+/*disposicion de las fotos de la tienda*/
 div.tienda10 {
   display: flex;
   justify-content: center;
@@ -220,11 +228,6 @@ a.link {
 }
 
 /*propiedades para los elementos debajo de las fotos de la tienda*/
-.imgT:hover {
-  scale: 1.1;
-  transition: 0.3s;
-}
-
 .precio {
   text-align: center;
   background-color: rgb(153, 243, 183);
@@ -243,10 +246,26 @@ div div#precio2 {
   border: 1px solid black;
 }
 
+.precio {
+  margin-top: 15px;
+}
+
+/*ANIMACIONES TIENDA*/
+.imgT:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
 #carrito:hover {
   cursor: pointer;
   scale: 1.2;
   border: 2px solid rgb(2, 75, 35);
+}
+
+.precio:hover {
+  color: rgb(45, 10, 110);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /*propiedades iconos redes*/
@@ -357,6 +376,7 @@ p.direccion {
     margin-top: 15px;
   }
   div.redes10 {
+    display: flex;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -386,21 +406,6 @@ ul.responsive {
     display: none;
   }
 }
-.respon {
-  position: absolute;
-  display: flex;
-  justify-content: end;
-  margin-top: 75px;
-}
-
-.respon2 {
-  position: absolute;
-  display: flex;
-  justify-content: end;
-  margin-top: 90px;
-  height: 20px;
-}
-
 @media (min-width: 480px) {
   .respon {
     display: none;
@@ -413,7 +418,7 @@ ul.responsive {
 }
 @media (max-width: 480px) {
   h1 {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 @media (max-width: 480px) {
@@ -430,6 +435,51 @@ ul.responsive {
   .tituloLogo {
     display: none;
   }
+}
+/*CONDICIONAL PARA PARRAFO PRINCIPAL*/
+p.parrafo {
+  background: linear-gradient(rgb(32, 105, 32), rgb(3, 141, 3));
+}
+
+/*CONDICIONAL PARA LOS H1*/
+h1 {
+  color: rgb(40, 126, 40);
+}
+
+/*CONDICIONAL PARA LOS H2*/
+h2.col-12 {
+  color: rgb(40, 126, 40);
+}
+
+/*CONDICIONAL BODY*/
+body {
+  background-color: rgb(241, 234, 234);
+}
+
+/*MIXIN H1*/
+h1 {
+  color: rgb(40, 126, 40);
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/*MIXIN FOTOS DE PRODUCTOS*/
+.imgProducto {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  padding: 50px;
+}
+
+/*MIXIN CARRITO TIENDA*/
+#carrito {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=estilos.css.map */
