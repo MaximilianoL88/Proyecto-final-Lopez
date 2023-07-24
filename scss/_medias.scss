@@ -101,6 +101,9 @@ ul.responsive{
     nav.navbar {
       display: none;
     }
+    .subirM{
+      display: none;
+    }
   }
   @media (max-width: 480px){
     h1 {
@@ -116,6 +119,9 @@ ul.responsive{
     #logo {
       display: none;
     } 
+    .subirDesk {
+      display: none;
+    }
   }
 
   @media (max-width: 480px){

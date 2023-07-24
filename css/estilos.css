@@ -433,6 +433,9 @@ ul.responsive {
   nav.navbar {
     display: none;
   }
+  .subirM {
+    display: none;
+  }
 }
 @media (max-width: 480px) {
   h1 {
@@ -446,6 +449,9 @@ ul.responsive {
 }
 @media (max-width: 480px) {
   #logo {
+    display: none;
+  }
+  .subirDesk {
     display: none;
   }
 }
