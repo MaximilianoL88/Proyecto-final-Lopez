@@ -273,11 +273,7 @@ div.redes {
   display: flex;
   justify-content: start;
   flex-direction: column;
-}
-
-.redes {
-  width: 60px;
-  padding: 10px;
+  align-items: center;
 }
 
 .redes:hover {
@@ -288,6 +284,12 @@ div.redes {
 
 a.redesN {
   text-align: center;
+}
+
+.redes {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
 }
 
 /* propiedades formulario de contacto */
@@ -329,6 +331,18 @@ p.direccion {
 .redes3:hover {
   color: green;
   cursor: pointer;
+}
+
+.redes20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.redes10 {
+  display: flex;
+  flex-direction: column;
 }
 
 /*MEDIAS QUERIES*/
@@ -375,11 +389,15 @@ p.direccion {
   .precio {
     margin-top: 15px;
   }
-  div.redes10 {
+  .redes10 {
     display: flex;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .redes20 {
+    padding: 15px;
   }
 }
 @media (max-width: 480px) {
@@ -412,7 +430,7 @@ ul.responsive {
   }
 }
 @media (min-width: 480px) {
-  .respon2 {
+  nav.navbar {
     display: none;
   }
 }
@@ -428,7 +446,7 @@ ul.responsive {
 }
 @media (max-width: 480px) {
   #logo {
-    margin-top: 75px;
+    display: none;
   }
 }
 @media (max-width: 480px) {

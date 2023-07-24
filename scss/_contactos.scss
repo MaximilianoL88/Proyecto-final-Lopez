@@ -4,11 +4,9 @@ div.redes{
     display: flex; 
     justify-content: start; 
     flex-direction: column;
+    align-items: center;
 }
-.redes{
-    width: 60px; 
-    padding: 10px;
-}
+
 .redes:hover{
     scale: 1.6;
     transition: 0.5s;
@@ -17,6 +15,11 @@ div.redes{
 a.redesN {
     text-align: center;
 }
+.redes {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+  }
 
 /* propiedades formulario de contacto */
 
@@ -57,3 +60,15 @@ p.direccion{
 .redes3:hover{
     color: green; cursor: pointer;
 }
+
+.redes20 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .redes10{
+    display: flex;
+    flex-direction: column;
+  }
