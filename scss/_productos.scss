@@ -4,10 +4,11 @@
     width: 300px; 
     height: 300px; 
     display: inline-block; 
-    padding: 50px;
+    padding: 10px;
 }
 .IrAtienda{
     font-size: 22px;
+    padding-top: 100px;
 }
 h2.comprar{
     text-decoration: underline; 
@@ -15,6 +16,16 @@ h2.comprar{
     justify-content: center; 
     margin-bottom: 60px;
 }
+p.descrip {
+    visibility: hidden;
+    text-align: center;
+    color: green;
+    margin-top: -10px;
+  }
+   
+  a:hover p {
+    visibility: visible;
+  }
 
 /*ANIMACION FOTO PRODUCTOS*/
 .imgProducto:hover{

@@ -1,0 +1,20 @@
+$redes-sociales:(
+    instagram: white,
+    facebook: white,
+    twitter: white,
+    correo: white,
+);
+
+.twitter{
+    background: map-get($redes-sociales, twitter )
+}
+.instagram{
+    background: map-get($redes-sociales , instagram );
+}
+.facebook{
+    background: map-get($redes-sociales , facebook );
+}
+.correo{
+    background: map-get($redes-sociales , correo );
+}
+

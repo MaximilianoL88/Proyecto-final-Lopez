@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+  <head>
+    <!--Metaetiquetas y links hoja de estilos y cdn para bootstrap y animate-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/icono papas.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
-     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/estilos.css">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
     <title>Papas para todos</title>
     <meta name="description" content="conoce todo sobre Papas para todos">
     <meta name="keywords" content="papas papines papas consumo papas noissette mini papas">
- </head>
- <body>
+  </head>
+  <body>
     <header>
+      <!--Logo y titulo-->
       <div class="container-fluid">
         <div class="row">
           <div class="col-3 col-sm-4 col-lg-1">
-            <a id="logo" href="./index.html"><img src="./img/logo papas.png" alt="imagen logo"></a>
+            <a id="logo" href="./index.html">
+              <img src="./img/logo papas.png" alt="imagen logo" class="log">
+            </a>
           </div>
           <div class="col-6 col-sm-3 col-lg-2 ">
             <p class="tituloLogo">Papas Para Todos</p>
           </div>
+          <!--Menu desktop-->
             <nav class="col-3 col-sm-5 col-lg-9">
               <ul class=" desktop col-12 paginas">
-                  <li><a href="index.html">inicio</a></li>
-                  <li><a href="pages.html/nosotros.html">nosotros</a></li>
-                  <li><a href="pages.html/productos.html">productos</a></li>
-                  <li><a href="pages.html/tienda.html">tienda</a></li>
-                  <li><a href="pages.html/contacto.html">contacto</a></li>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="pages.html/nosotros.html">Nosotros</a></li>
+                  <li><a href="pages.html/productos.html">Productos</a></li>
+                  <li><a href="pages.html/tienda.html">Tienda</a></li>
+                  <li><a href="pages.html/contacto.html">Contacto</a></li>
               </ul>
             </nav>
+            <!--Logo, titulo y menu versión móvil-->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
               <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html" id="logo2" >
@@ -67,12 +73,13 @@
       </div>        
     </header>
     <main>
+      <!--Tilulo principal y articulo con descripción-->
       <section class="container-fluid">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 col-sm-10 col-lg-9">
             <h1 class="animate__animated animate__fadeInDown">Bienvenidos a Papas Para Todos</h1>
           </div>
-          <article class="col-12">
+          <article class="col-12 col-sm-10 col-lg-9">
             <p class="parrafo animate__animated animate__fadeInUp">Papas para todos somos una empresa con mas de 25 años en el rubro.
                   Producimos y comercializamos papas consumo, mini papas, papines y papas noissette
                   con alcance a toda la Argentina con la mision de llegar con un producto de altisima calidad 
@@ -84,66 +91,101 @@
         </div>
       </section>
     </main>
+    <!--Sección de productos-->
       <section class="container">
         <div class="row">
             <h2 class="col-12">Productos destacados</h2>
               <div class="col-12 col-sm-6 col-lg-3">
                 <div class="papas11">
-                  <img src="./img/Papines.jpg" alt="papines" class="papas1">
-                </div>
-               <p class="nombre">Papines</p>
-              </div>
-              <div class="col-12 col-sm-6 col-lg-3">
-                <div class="papas11">
-                  <img src="./img/papines 2.jpg" alt="papines 2" class="papas2">
-                </div>               
-                <p class="nombre">Papas noissette</p>
-              </div>
-              <div class="col-12 col-sm-6 col-lg-3">
-                <div class="papas11">
-                  <img src="./img/papines 3.jpg" alt="papines 3" class="papas3">
-                </div>                
-                <p class="nombre">Mini papa</p>
-              </div>
-              <div class="col-12 col-sm-6 col-lg-3">
-                <div class="papas11">
-                  <img src="./img/papines 4.jpg" alt="papines 4" class="papas4">
-                </div>
-               <p class="nombre">Papa consumo</p>
-              </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                  <div class="papas11">
+                  <a href="./pages.html/tienda.html">
                     <img src="./img/Papines.jpg" alt="papines" class="papas1">
-                  </div>                
+                  </a>                  
+                </div>
+                <a href="./pages.html/tienda.html">
                   <p class="nombre">Papines</p>
+                </a>               
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="papas11">
+                  <a href="./pages.html/tienda.html">
+                    <img src="./img/papines 2.jpg" alt="papas noissette" class="papas2">
+                  </a>                  
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                  <div class="papas11">
-                    <img src="./img/papines 2.jpg" alt="papines 2" class="papas2">
-                  </div>                 
+                <a href="./pages.html/tienda.html">
                   <p class="nombre">Papas noissette</p>
+                </a>                               
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="papas11">
+                  <a href="./pages.html/tienda.html">
+                    <img src="./img/papines 3.jpg" alt="mini papa" class="papas3">
+                  </a>                  
+              </div>
+                  <a href="./pages.html/tienda.html">
+                    <p class="nombre">Mini papa</p>
+                  </a>                               
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="papas11">
+                  <a href="./pages.html/tienda.html">
+                    <img src="./img/papines 4.jpg" alt="papa consumo" class="papas4">
+                  </a>                  
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                  <div class="papas11">
-                    <img src="./img/papines 3.jpg" alt="papines 3" class="papas3">
-                  </div>                 
-                  <p class="nombre">Mini papa</p>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                  <div class="papas11">
-                    <img src="./img/papines 4.jpg" alt="papines 4" class="papas4">
-                  </div>                  
+                <a href="./pages.html/tienda.html">
                   <p class="nombre">Papa consumo</p>
+                </a>               
+              </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                  <div class="papas11">
+                    <a href="./pages.html/tienda.html">
+                      <img src="./img/papas 12.jpeg" alt="papa andina" class="papas1">
+                    </a>                   
+                  </div>
+                  <a href="./pages.html/tienda.html">
+                    <p class="nombre">Papa andina</p>
+                  </a>                                
                 </div>
-           </div>        
+                <div class="col-12 col-sm-6 col-lg-3">
+                  <div class="papas11">
+                    <a href="./pages.html/tienda.html">
+                      <img src="./img/papas13.jpg" alt="papa sudeste" class="papas2">
+                    </a>                    
+                  </div>
+                  <a href="./pages.html/tienda.html">
+                    <p class="nombre">Papa sudeste</p>
+                  </a>                                   
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                  <div class="papas11">
+                    <a href="./pages.html/tienda.html">
+                      <img src="./img/papas14.jpeg" alt="papa copetin" class="papas3">
+                    </a>                    
+                  </div>
+                    <a href="./pages.html/tienda.html">
+                      <p class="nombre">Papa copetin</p>
+                    </a>                                  
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                  <div class="papas11">
+                    <a href="./pages.html/tienda.html">
+                      <img src="./img/papas15.jpeg" alt="papa patagónica" class="papas4">
+                    </a>                    
+                  </div>
+                    <a href="./pages.html/tienda.html">
+                      <p class="nombre">Papa patagónica</p>
+                    </a>                                   
+                </div>
+          </div>        
       </section>
+       <!--Links para subir versión desktop y mobile-->
         <div class="container-fluid">
-          <div class="col-12">
+          <div class="col-12 col-sm-10 col-lg-6">
             <p class="irAseccion">Descubre mas en la seccion Productos y nuestra Tienda</p>
             <a class="subirDesk" href="#logo" >ir arriba</a>
             <a class="subirM" href="#logo2" >ir arriba</a>
           </div>         
-        </div>                  
+        </div>      
+        <!--pie de página-->            
     <footer class="f" id="bajar">
       <div  class="container-fluid">
         <div class="row">
@@ -153,6 +195,6 @@
           <b class="col-12 col-sm-10 col-lg-3 referencia" >Todos los derechos reservados </b> 
         </div>        
       </div>       
-   </footer>
- </body>
+    </footer>
+  </body>
 </html>

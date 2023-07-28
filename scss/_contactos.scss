@@ -1,10 +1,16 @@
 /*propiedades iconos redes*/
 
-div.redes{
+div.redes20{
     display: flex; 
     justify-content: start; 
     flex-direction: column;
     align-items: center;
+}
+.redes {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 15%;
 }
 
 .redes:hover{
@@ -12,14 +18,29 @@ div.redes{
     transition: 0.5s;
     cursor: pointer;
 }
+
 a.redesN {
     text-align: center;
 }
-.redes {
-    width: 70px;
-    height: 70px;
+
+
+
+.redes20 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
-  }
+}
+
+.redes10{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes3:hover{
+    color: green; cursor: pointer;
+}
+
 
 /* propiedades formulario de contacto */
 
@@ -33,22 +54,37 @@ div h2.formu{
 .formulario{
     width: 1000px;
 }
+
+textarea, input{
+    border: solid green 1px;
+}
+
+input:hover{ background-color: rgb(106, 187, 106);
+}
+
+textarea:hover{ background-color: rgb(106, 187, 106);
+}
+
 button{
     background-color: rgb(46, 192, 46);
 }
+
+label {
+    color: green;
+}
+
 /*ubicacion mapa*/
 
 div iframe{
     padding-bottom: 30px;
+    .mapa{
+        margin-top: 150px; 
+        margin-bottom: 150px;
+    }
 }
 
+/*Titulo sobre el mapa*/
 
-/*posicionamiento mapa contacto*/
-
-iframe.mapa{
-    margin-top: 150px; 
-    margin-bottom: 150px;
-}
 p.direccion{
     display: flex; 
     justify-content: center;
@@ -57,18 +93,8 @@ p.direccion{
     text-decoration: underline;
     margin-top: 40px;
 }
-.redes3:hover{
-    color: green; cursor: pointer;
-}
 
-.redes20 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
 
-  .redes10{
-    display: flex;
-    flex-direction: column;
-  }
+
+
+

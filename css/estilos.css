@@ -27,13 +27,6 @@ h2 {
   font-size: 36px;
 }
 
-h1.col12 {
-  color: rgb(40, 126, 40);
-  font-size: 50px;
-  font-family: "Roboto", sans-serif;
-  padding: 20px;
-}
-
 /* propiedades encabezado y navegacion */
 header div div {
   display: flex;
@@ -58,10 +51,9 @@ header div div nav ul li {
   padding: 20px;
   background-color: white;
 }
-
-/* estilo nav*/
-.paginas {
-  list-style-type: none;
+header div div nav ul li a {
+  color: green;
+  text-decoration: none;
 }
 
 /*medidas para el logo*/
@@ -78,6 +70,15 @@ body header div a img.logo {
 .titulo22 {
   color: rgb(7, 107, 7);
   padding-right: 10px;
+}
+
+.log {
+  border-radius: 10%;
+}
+
+/* estilo nav*/
+.paginas {
+  list-style-type: none;
 }
 
 .nav-link {
@@ -132,19 +133,21 @@ main section div article {
   font-weight: lighter;
   border-radius: 7px;
   margin-bottom: 40px;
+  background: linear-gradient(rgb(32, 105, 32), rgb(3, 141, 3));
 }
 
 /*tamaño fotos del index*/
 body section img {
   width: 275px;
   height: 275px;
-  padding: 15px;
+  padding: 30px;
 }
 
 /*estilos para los textos de las fotos del index*/
 .nombre {
-  padding-left: 100px;
+  text-align: center;
   font-weight: bold;
+  color: rgb(28, 131, 28);
 }
 
 p.irAseccion {
@@ -164,10 +167,6 @@ p.irAseccion {
   color: green;
   cursor: pointer;
   text-decoration: underline;
-}
-
-.parrafo {
-  background: linear-gradient(rgb(32, 105, 32), rgb(3, 141, 3));
 }
 
 /*ubicacion boton subir*/
@@ -195,11 +194,12 @@ footer.f b.referencia {
   width: 300px;
   height: 300px;
   display: inline-block;
-  padding: 50px;
+  padding: 10px;
 }
 
 .IrAtienda {
   font-size: 22px;
+  padding-top: 100px;
 }
 
 h2.comprar {
@@ -207,6 +207,17 @@ h2.comprar {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+}
+
+p.descrip {
+  visibility: hidden;
+  text-align: center;
+  color: green;
+  margin-top: -10px;
+}
+
+a:hover p {
+  visibility: visible;
 }
 
 /*ANIMACION FOTO PRODUCTOS*/
@@ -231,6 +242,7 @@ a.link {
 .precio {
   text-align: center;
   background-color: rgb(153, 243, 183);
+  margin-top: 15px;
 }
 
 div div#precio2 {
@@ -246,10 +258,6 @@ div div#precio2 {
   border: 1px solid black;
 }
 
-.precio {
-  margin-top: 15px;
-}
-
 /*ANIMACIONES TIENDA*/
 .imgT:hover {
   scale: 1.1;
@@ -259,7 +267,7 @@ div div#precio2 {
 #carrito:hover {
   cursor: pointer;
   scale: 1.2;
-  border: 2px solid rgb(2, 75, 35);
+  border: 3px solid rgb(2, 75, 35);
 }
 
 .precio:hover {
@@ -269,11 +277,18 @@ div div#precio2 {
 }
 
 /*propiedades iconos redes*/
-div.redes {
+div.redes20 {
   display: flex;
   justify-content: start;
   flex-direction: column;
   align-items: center;
+}
+
+.redes {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 15%;
 }
 
 .redes:hover {
@@ -286,10 +301,21 @@ a.redesN {
   text-align: center;
 }
 
-.redes {
-  width: 70px;
-  height: 70px;
+.redes20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
+}
+
+.redes10 {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes3:hover {
+  color: green;
+  cursor: pointer;
 }
 
 /* propiedades formulario de contacto */
@@ -304,21 +330,36 @@ div h2.formu {
   width: 1000px;
 }
 
+textarea, input {
+  border: solid green 1px;
+}
+
+input:hover {
+  background-color: rgb(106, 187, 106);
+}
+
+textarea:hover {
+  background-color: rgb(106, 187, 106);
+}
+
 button {
   background-color: rgb(46, 192, 46);
+}
+
+label {
+  color: green;
 }
 
 /*ubicacion mapa*/
 div iframe {
   padding-bottom: 30px;
 }
-
-/*posicionamiento mapa contacto*/
-iframe.mapa {
+div iframe .mapa {
   margin-top: 150px;
   margin-bottom: 150px;
 }
 
+/*Titulo sobre el mapa*/
 p.direccion {
   display: flex;
   justify-content: center;
@@ -328,21 +369,33 @@ p.direccion {
   margin-top: 40px;
 }
 
-.redes3:hover {
-  color: green;
-  cursor: pointer;
+/* propiedades contenido principal nosotros */
+.imghistoria {
+  margin-top: 35px;
 }
 
-.redes20 {
+p.historia {
+  padding: 15px;
+  background-color: rgb(55, 182, 55);
+  margin-top: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
+  justify-content: center;
 }
 
-.redes10 {
-  display: flex;
-  flex-direction: column;
+/*estilo titulo video*/
+div p.cosecha {
+  font-size: 22px;
+  color: rgb(40, 126, 40);
+  text-decoration: underline;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+/*ubicacion foto seccion nosotros*/
+.papaAcampo {
+  width: 300px;
+  height: 300px;
+  display: block;
 }
 
 /*MEDIAS QUERIES*/
@@ -415,10 +468,6 @@ p.direccion {
     margin-top: 40px;
   }
 }
-ul.responsive {
-  display: none;
-}
-
 @media (max-width: 480px) {
   ul.desktop {
     display: none;
@@ -458,6 +507,12 @@ ul.responsive {
 @media (max-width: 480px) {
   .tituloLogo {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .historia1 {
+    display: flex;
+    justify-content: center;
   }
 }
 /*CONDICIONAL PARA PARRAFO PRINCIPAL*/
@@ -504,6 +559,22 @@ h1 {
   margin-left: 30px;
   margin-bottom: 15px;
   border: 1px solid black;
+}
+
+.twitter {
+  background: white;
+}
+
+.instagram {
+  background: white;
+}
+
+.facebook {
+  background: white;
+}
+
+.correo {
+  background: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */

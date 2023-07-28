@@ -2,10 +2,10 @@
 
 header div div {
     display: flex;
-     align-items: center;
-     div a img{
-        width: 100px; 
-        height: 100px;
+    align-items: center;
+        div a img{
+            width: 100px; 
+            height: 100px;
     }
      div p{
         display: flex;
@@ -19,34 +19,43 @@ header div div {
             li{
                 padding: 20px;
                 background-color: white;
-           }
+                a{
+                    color: green;
+                    text-decoration: none;
+                }
+            }
+            
         }
-       
     }
 }
 
-    /* estilo nav*/
 
-    .paginas {
-        list-style-type: none;
-    }    
+/*medidas para el logo*/
     
-    /*medidas para el logo*/
-    
-    body header div a img.logo {
+body header div a img.logo {
         width: 150px;
         height: 150px;
-    }
+}
     
-    /*color nombre logo*/
+/*color nombre logo*/
     
 .tituloLogo{ 
     color: rgb(7, 107, 7);
     }
-    .titulo22{
+.titulo22{
         color: rgb(7, 107, 7);
         padding-right: 10px;
     }   
+.log{
+    border-radius: 10%;
+}    
+
+/* estilo nav*/
+
+.paginas {
+    list-style-type: none;
+}    
+    
 
 .nav-link {
         color: green;

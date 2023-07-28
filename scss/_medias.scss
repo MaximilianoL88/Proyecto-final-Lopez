@@ -12,120 +12,106 @@
         flex-direction: column; 
         padding-left: 0px; 
 } 
-}
-    
+} 
 @media (max-width: 480px) {
     header div div nav ul li a { 
         font-size: 13px; 
         line-height: 0%; 
         text-align: center; 
         padding: 1px;
-     }
+      }
 } 
-
 @media (min-width: 481px) {
-     header div div nav {
+      header div div nav {
         display: flex; 
         justify-content: flex-end;
-}
-    
+} 
 }
 @media (max-width: 480px) {
-   div p.nombre{
-       text-align: center; 
-       padding-left: 0px;
+    div p.nombre{
+        text-align: center; 
+        padding-left: 0px;
     }
 }
-
 @media (max-width: 480px) {
-     .papas11{
-         text-align: center;
-     }  .imgT {
+      .papas11{
+          text-align: center;
+      }  .imgT {
         text-align: center;
-     }
-     .precio {
+      }
+      .precio {
         margin-top: 15px;
-     }
-     .redes10{
+      }
+      .redes10{
       display: flex;
       flex-direction: row;
       justify-content: center;
       margin-top: 60px;
       margin-bottom: 40px;
-     }
-     .redes20{
+      }
+      .redes20{
       padding: 15px;
-     }
+      }
     
- }
- 
- 
-
-
- @media (max-width: 480px) {
-     footer div div b.referencia { 
-       line-height: normal;   
-     }
- }
-
-
- @media (max-width: 480px){
-     h2.historia {
-       margin-top: 100px; 
- } 
- }
-
- @media (max-width: 480px){
-     p.cosecha {
-       margin-top: 40px; 
- } 
- }
- 
- 
-ul.responsive{
-    display: none;
-  }
-  
-  @media (max-width: 480px){
+}
+@media (max-width: 480px) {
+      footer div div b.referencia { 
+        line-height: normal;   
+      }
+}
+@media (max-width: 480px){
+      h2.historia {
+        margin-top: 100px; 
+  } 
+}
+@media (max-width: 480px){
+      p.cosecha {
+        margin-top: 40px; 
+  } 
+}
+@media (max-width: 480px){
     ul.desktop {
       display: none;
     } 
-  }
-   
-  @media (min-width: 480px) {
+}
+@media (min-width: 480px) {
     .respon {
       display: none;
     }
-  }
-  @media (min-width: 480px) {
+}
+@media (min-width: 480px) {
     nav.navbar {
       display: none;
     }
     .subirM{
       display: none;
     }
-  }
-  @media (max-width: 480px){
+}
+@media (max-width: 480px){
     h1 {
       margin-top: 50px;
     } 
-  }
-  @media (max-width: 480px){
+}
+@media (max-width: 480px){
     h1.formu {
       margin-top: 75px;
     } 
   }
-  @media (max-width: 480px){
+@media (max-width: 480px){
     #logo {
       display: none;
     } 
     .subirDesk {
       display: none;
     }
-  }
-
-  @media (max-width: 480px){
+}
+@media (max-width: 480px){
     .tituloLogo{
       display: none;
     }
-  }
+}
+@media (max-width: 480px) {
+      .historia1{
+      display: flex; justify-content: center;     
+      }
+}

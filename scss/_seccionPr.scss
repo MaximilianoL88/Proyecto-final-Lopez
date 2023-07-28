@@ -3,9 +3,9 @@
 main section div {
     display: flex;
     justify-content: center;
-     article{
-        display: flex;
-         justify-content: center;
+        article{
+            display: flex;
+            justify-content: center;
     }
 }
 /*propiedades para el parrafo debajo de nuestro h1*/
@@ -21,6 +21,7 @@ main section div {
     font-weight:lighter;
     border-radius: 7px; 
     margin-bottom: 40px;
+    background: linear-gradient( rgb(32, 105, 32), rgb(3, 141, 3));
     }
 
 
@@ -29,15 +30,16 @@ main section div {
 body section img{
     width :$size-foto-destacados;
     height: $size-foto-destacados;
-     padding: 15px;
+    padding: 30px;
 }
 
 /*estilos para los textos de las fotos del index*/
 
 
 .nombre{
-    padding-left: 100px;
+    text-align: center;
     font-weight: bold;
+    color: rgb(28, 131, 28);
 }
 
 p.irAseccion{ 
@@ -58,9 +60,6 @@ p.irAseccion{
     text-decoration: underline;
 }
 
-.parrafo{
-    background: linear-gradient( rgb(32, 105, 32), rgb(3, 141, 3));
-}
 
 /*ubicacion boton subir*/
 

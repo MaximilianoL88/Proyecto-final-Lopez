@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--Metaetiquetas y links hoja de estilos y cdn para bootstrap y animate-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/icono papas.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
-     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> 
     <title>Nosotros</title>
@@ -17,23 +18,28 @@
 </head>
 <body>
   <header>
+    <!--Logo y titulo-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 col-sm-10 col-lg-1">
-          <a id="logo" href="../index.html"><img src="../img/logo papas.png" alt="imagen logo"></a>
+          <a id="logo" href="../index.html">
+            <img src="../img/logo papas.png" alt="imagen logo" class="log">
+          </a>
         </div>
         <div class="col-12 col-sm-10 col-lg-2 ">
           <p class="tituloLogo">Papas Para Todos</p>
         </div>
+        <!--Menu desktop-->
           <nav class="col-12 col-sm-10 col-lg-9">
             <ul class="desktop col-12 paginas">
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="nosotros.html">nosotros</a></li>
-                <li><a href="productos.html">productos</a></li>
-                <li><a href="tienda.html">tienda</a></li>
-                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
           </nav>
+           <!--Logo, titulo y menu versión móvil-->
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html" id="logo2" >
@@ -67,13 +73,14 @@
     </div>        
   </header>
     <main>
+      <!--Titulo principal, foto y párrafo-->
         <div class="container-fluid">
-                <section class="row historia1">
-                  <div class="historia">
+            <section class="row historia1">
+                <div class="historia">
                     <h1 class=" col-12 animate__animated animate__fadeInDown">Nuestra historia</h1>
-                  </div>                   
-                    <article class="col-12 col-lg-6" >
-                       <p class="historia"> Papas para todos somos una empresa con mas de 25 años en el rubro.
+                </div>                   
+                  <article class="col-10 col-sm-18 col-lg-6" >
+                      <p class="historia"> Papas para todos somos una empresa con mas de 25 años en el rubro.
                                 Producimos y comercializamos papas consumo, mini papas, papines y papas noissette
                                 con alcance a toda la Argentina con la mision de llegar con un producto de altisima calidad 
                                 a todos los hogares.
@@ -81,35 +88,39 @@
                                 tecnologias mas modernas, eficientes y amigables con el medioambiente.
                                 Ademas manejamos nuestra propia logistica asegurandonos la calidad del 
                                 producto hasta su consumidor final.
-                            </p>
-                    </article>
+                      </p>
+                  </article>
                     <div class="col-12 col-lg-6 imghistoria">
-                        <img src="../img/papas 7.jpeg" alt="cosecha papa" class="papaAcampo">
+                      <img src="../img/papas 7.jpeg" alt="cosecha papa" class="papaAcampo">
                     </div>
-                </section>
+            </section>
         </div>        
         <div>
-            <p class="cosecha col-12">Mira nuestro metodo de cosecha a campo</p>
+          <!--Titulo y video-->
+            <p class="cosecha col-12">Mira nuestro método de cosecha a campo</p>
             <iframe class="col-12 col-lg-6" width="500" height="500" src="https://www.youtube.com/embed/WvFIbqB1A0I"
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+          </iframe>
         </div>
+         <!--Links para subir versión desktop y mobile-->
         <div class="container-fluid">
-          <div class="col-12">
+          <div class="col-12 col-sm-10 col-lg-1">
             <a class="subirDesk" href="#logo" >ir arriba</a>
             <a class="subirM" href="#logo2" >ir arriba</a>
           </div>
         </div>   
     </main>
+    <!--pie de página-->  
     <footer class="f">
       <div  class="container-fluid">
-         <div class="row">
-           <b class="col-12 col-sm-10 col-lg-3 referencia">San Martin 0000</b>
-           <b class="col-12 col-sm-10 col-lg-3 referencia">Telefono: 0800-0101-010101</b>
-           <b class="col-12 col-sm-10 col-lg-3 referencia">Mail: ppt23@outlook.com</b> 
-           <b class="col-12 col-sm-10 col-lg-3 referencia" >Todos los derechos reservados </b> 
-         </div>        
-       </div>               
-     </footer>
-</body>
+          <div class="row">
+            <b class="col-12 col-sm-10 col-lg-3 referencia">San Martin 0000</b>
+            <b class="col-12 col-sm-10 col-lg-3 referencia">Telefono: 0800-0101-010101</b>
+            <b class="col-12 col-sm-10 col-lg-3 referencia">Mail: ppt23@outlook.com</b> 
+            <b class="col-12 col-sm-10 col-lg-3 referencia" >Todos los derechos reservados </b> 
+          </div>        
+        </div>               
+    </footer>
+  </body>
 </html>
