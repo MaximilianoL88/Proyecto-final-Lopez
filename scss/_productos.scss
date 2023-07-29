@@ -12,9 +12,15 @@
     display: inline-block; 
     padding: 10px;
 }
+.contenedorTienda{
+    display: flex;
+    justify-content: center;
+}
 .IrAtienda{
     font-size: 22px;
-    padding-top: 100px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: green;
 }
 h2.comprar{
     text-decoration: underline; 

@@ -27,6 +27,10 @@ h2 {
   font-size: 36px;
 }
 
+a {
+  color: rgb(82, 3, 82);
+}
+
 /* propiedades encabezado y navegacion */
 header div div {
   display: flex;
@@ -65,6 +69,7 @@ body header div a img.logo {
 /*color nombre logo*/
 .tituloLogo {
   color: rgb(7, 107, 7);
+  font-weight: bold;
 }
 
 .titulo22 {
@@ -153,7 +158,9 @@ body section img {
 p.irAseccion {
   font-size: 24px;
   text-decoration: underline;
-  padding-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: rgb(28, 131, 28);
 }
 
 /*ANIMACIONES*/
@@ -207,9 +214,16 @@ footer.f b.referencia {
   padding: 10px;
 }
 
+.contenedorTienda {
+  display: flex;
+  justify-content: center;
+}
+
 .IrAtienda {
   font-size: 22px;
-  padding-top: 100px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  color: green;
 }
 
 h2.comprar {
@@ -286,6 +300,11 @@ div div#precio2 {
   text-decoration: underline;
 }
 
+/*PROPIEDADES H1 SOBRE EN FORMULARIO*/
+h1.tituloForm {
+  margin-top: 100px;
+}
+
 /*propiedades iconos redes*/
 div.redes20 {
   display: flex;
@@ -299,11 +318,12 @@ div.redes20 {
   height: 70px;
   padding: 10px;
   border-radius: 15%;
+  margin-bottom: 15px;
 }
 
 .redes:hover {
-  scale: 1.6;
-  transition: 0.5s;
+  scale: 1.3;
+  transition: 0.2s;
   cursor: pointer;
 }
 
@@ -323,6 +343,11 @@ a.redesN {
   flex-direction: column;
 }
 
+.redes3 {
+  text-decoration: none;
+  color: rgb(76, 128, 76);
+}
+
 .redes3:hover {
   color: green;
   cursor: pointer;
@@ -333,10 +358,11 @@ div h2.formu {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .formulario {
+  margin-top: 75px;
   width: 1000px;
 }
 
@@ -361,12 +387,9 @@ label {
 }
 
 /*ubicacion mapa*/
-div iframe {
-  padding-bottom: 30px;
-}
-div iframe .mapa {
-  margin-top: 150px;
-  margin-bottom: 150px;
+iframe {
+  margin-top: 40px;
+  margin-bottom: 75px;
 }
 
 /*Titulo sobre el mapa*/
@@ -376,7 +399,8 @@ p.direccion {
   font-size: 30px;
   color: rgb(40, 126, 40);
   text-decoration: underline;
-  margin-top: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* propiedades contenido principal nosotros */
@@ -394,7 +418,7 @@ p.historia {
 
 /*estilo titulo video*/
 div p.cosecha {
-  font-size: 22px;
+  font-size: 32px;
   color: rgb(40, 126, 40);
   text-decoration: underline;
   margin-bottom: 50px;
@@ -408,7 +432,7 @@ div p.cosecha {
   display: block;
 }
 
-/*MEDIAS QUERIES*/
+/*MEDIAS QUERIES MENU*/
 @media (max-width: 480px) {
   li {
     display: flex;
@@ -437,6 +461,25 @@ div p.cosecha {
   }
 }
 @media (max-width: 480px) {
+  ul.desktop {
+    display: none;
+  }
+}
+@media (min-width: 480px) {
+  .respon {
+    display: none;
+  }
+}
+@media (min-width: 480px) {
+  nav.navbar {
+    display: none;
+  }
+  .subirM {
+    display: none;
+  }
+}
+/*MEDIAS QUIERIES FOTOS PRODUCTOS Y REDES*/
+@media (max-width: 480px) {
   div p.nombre {
     text-align: center;
     padding-left: 0px;
@@ -463,11 +506,13 @@ div p.cosecha {
     padding: 15px;
   }
 }
+/*MEDIAS QUIERIES FOOTER*/
 @media (max-width: 480px) {
   footer div div b.referencia {
     line-height: normal;
   }
 }
+/*MEDIAS QUIERIES DE TITULOS, SUBTITULOS Y DESCRIPCIONES*/
 @media (max-width: 480px) {
   h2.historia {
     margin-top: 100px;
@@ -476,24 +521,6 @@ div p.cosecha {
 @media (max-width: 480px) {
   p.cosecha {
     margin-top: 40px;
-  }
-}
-@media (max-width: 480px) {
-  ul.desktop {
-    display: none;
-  }
-}
-@media (min-width: 480px) {
-  .respon {
-    display: none;
-  }
-}
-@media (min-width: 480px) {
-  nav.navbar {
-    display: none;
-  }
-  .subirM {
-    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -523,6 +550,12 @@ div p.cosecha {
   .historia1 {
     display: flex;
     justify-content: center;
+  }
+}
+/*MEDIAS QUIERIES FORMULARIO*/
+@media (max-width: 480px) {
+  .formulario {
+    width: 300px;
   }
 }
 /*CONDICIONAL PARA PARRAFO PRINCIPAL*/
