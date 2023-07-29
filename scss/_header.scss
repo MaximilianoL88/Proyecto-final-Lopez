@@ -30,6 +30,11 @@ header div div {
 }
 
 
+li a:hover{
+    font-weight: bold;
+}
+
+
 /*medidas para el logo*/
     
 body header div a img.logo {
@@ -68,7 +73,8 @@ li.nav-item {
     padding: 8px;
 }     
 
-.respon{position: absolute;
+.respon{
+    position: absolute;
     display: flex; justify-content: end;
     margin-top: 75px;
 
